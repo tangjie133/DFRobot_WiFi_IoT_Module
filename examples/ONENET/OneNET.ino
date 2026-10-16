@@ -1,3 +1,4 @@
+#if 0
 /*!
  * @file OneNET.ino
  * @brief Send data flow to the OneNET IoT platform every 1 second, and view the data in the data flow display area.
@@ -93,3 +94,4 @@ String splicingData(String streamname, String data){
   str += str2;
   return str;
 }
+#endif
